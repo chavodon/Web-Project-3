@@ -28,3 +28,29 @@ h4 {
 label {
 	margin-left: 45px;
 }
+
+button {
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;		
+	border-radius: 12px;
+	
+}
+
+button.clear {
+	color: white;
+	background-color: red;
+	margin-left: absolute;
+}
+
+button.goto {
+	color: white;
+	background-color: blue;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 100px;
+
+}

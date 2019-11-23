@@ -1,5 +1,5 @@
 body {
-	background: url(product.jpg) no-repeat center center fixed;
+	background: url(reportgg2.jpg) no-repeat center center fixed;
 	background-size: cover;
 	font-family: sans-serif;
 }
@@ -37,19 +37,19 @@ button {
 	display: inline-block;
 	font-size: 16px;		
 	border-radius: 12px;
-	
+	margin: 0 auto;
 }
 
 button.clear {
 	color: white;
 	background-color: red;
-	margin-left: absolute;
+	margin-left: 35%;
 }
 
 button.goto {
 	color: white;
 	background-color: blue;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
 	margin-left: 100px;
 }

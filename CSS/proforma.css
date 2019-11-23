@@ -1,0 +1,39 @@
+body{
+	background: url(reportgg2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+h2{
+	display: inline;
+}
+
+h4 {
+	text-align: left;
+	display: inline;
+}
+
+.bill {
+	margin-right: 200px;
+}
+
+.thisCompany {
+	margin-top: 0;
+	text-align: right;
+	margin-right: 150px;
+}
+
+.date {
+	text-align: right;
+}
+
+table.items{
+	border-style: solid;
+	border-width: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.totals {
+	text-align: right;
+}

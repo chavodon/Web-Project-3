@@ -1,0 +1,52 @@
+body{
+	background: url(reportgg2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	display: inline;
+	font-size: 30px;
+}
+
+input {
+	width: 200px;
+	height: 20px;
+}
+
+.upperdiv {
+	border-style: solid;
+	border-width: 3px;
+	padding-bottom: 30px;
+}
+
+.lowerdiv {
+	border-style: solid;
+	border-width: 3px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 60px;
+}
+
+button {
+				background-color: #808080;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;	
+				margin-left: 150px;		
+				border-radius: 12px;	
+				position: center;
+}
+
+.butdiv {
+	text-align: center;
+}

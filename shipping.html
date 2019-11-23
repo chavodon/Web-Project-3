@@ -4,6 +4,7 @@
 		<title>Customer Details</title>
 
 		<link rel="stylesheet" type="text/css" href="CSS/shipping.css">
+		<script src="Js/script.js"></script>
 	</head>
 	
 	<body>
@@ -18,7 +19,7 @@
 				<br>
 				<br>
 				<label><h3>Company Name: </h3></label>
-				<input type="textbox" id="cusName">
+				<input type="textbox" id="compName">
 				<br>
 				<br>
 				<br>
@@ -35,9 +36,9 @@
 				<label><h3>Phone Number: </h3></label>
 				<input type="textbox" id="number" required="">
 			</div>
-			<div class="butdiv">
-				<button id="toProforma" onclick="location.href = 'proforma.html';">Continue</button>
-			</div>
 		</form>
+		<div class="butdiv">
+			<button id="toProforma" onclick="location.href = 'proforma.html'; shipping();">Continue</button>
+		</div>
 	</body>
 </html>

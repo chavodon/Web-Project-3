@@ -62,5 +62,5 @@ function pass(){
 function mail(){
 	var email = localStorage.getItem("email");
 	location_of_button = document.getElementById("emailit");
-	location_of_button.href = "mailto:"+email+"?cc=lotspace619@gmail.com&subject=Performa Invoice&body=You have requested the services of Chirus";
+	location_of_button.href = "mailto:"+email+"?cc=Chirus@Chirus.com&subject=Performa Invoice&body=You have requested the services of Chirus";
 }

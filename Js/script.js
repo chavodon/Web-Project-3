@@ -58,3 +58,9 @@ function pass(){
 	document.getElementById("tax").value = tax.toFixed(2);
 	document.getElementById("total").value = parseFloat(document.getElementById("tax").value) + parseFloat(sum);
 }
+
+function mail(){
+	var email = localStorage.getItem("email");
+	location_of_button = document.getElementById("emailit");
+	location_of_button.href = "mailto:"+email+"?cc=lotspace619@gmail.com&subject=Performa Invoice&body=You have requested the services of Chirus";
+}
